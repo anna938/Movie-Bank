@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" /> -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#000000" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,500,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../src/index.css" />
+    <title>TIFF</title>
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <nav>
+          <a href="#">
+            <img src="./img/tiff-logo.png" alt="" />
+          </a>
+        </nav>
+      </div>
+    </header>
+    <section class="filmContainer">
+      <div class="container">
+        <div class="filmSection">
+          <div class="film">
+            <div class="filmImg"></div>
+
+            <div class="filmDesc">
+              <h2 class="mHeading">{filmsDetail.title}</h2>
+              <h4>{filmsDetail.genres}</h4>
+
+              <p>{`${filmsDetail.desc.substr(0, 200)}...`}</p>
+            </div>
+            <div class="readMore">
+              <a href="/" class="btn">
+                Read More
+              </a>
+            </div>
+          </div>
+          <div class="film">
+            <div class="filmImg"></div>
+            <div class="filmDesc">
+              <h2 class="mHeading">{filmsDetail.title}</h2>
+              <h4>{filmsDetail.genres}</h4>
+
+              <p>{`${filmsDetail.desc.substr(0, 200)}...`}</p>
+            </div>
+            <div class="readMore">
+              <a href="/" class="btn">
+                Read More
+              </a>
+            </div>
+          </div>
+          <div class="film">
+            <div class="filmImg">
+              <img src="https://via.placeholder.com/350x150" />
+            </div>
+            <div class="filmDesc">
+              <h2 class="mHeading">{filmsDetail.title}</h2>
+              <h4>{filmsDetail.genres}</h4>
+
+              <p>{`${filmsDetail.desc.substr(0, 200)}...`}</p>
+            </div>
+            <div class="readMore">
+              <a href="/" class="btn">
+                Read More
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
