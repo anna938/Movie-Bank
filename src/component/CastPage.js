@@ -15,7 +15,7 @@ class CastPage extends Component {
   componentDidMount() {
     axios
       .get(
-        "http://api.themoviedb.org/3/person/" +
+        "https://api.themoviedb.org/3/person/" +
           this.props.castId +
           "?api_key=447926e3e81747e6e301f91aa55a11ba&append_to_response=movie_credits"
       )
